@@ -286,9 +286,8 @@ import os
 
 @st.cache_data
 def load_local_data():
-    # Tambahkan huruf r di depan tanda kutip pertama
-    file_excel = r"C:\Users\it_ne\Downloads\ARW\dataset_final.xlsx"
-    file_csv = r"C:\Users\it_ne\Downloads\ARW\dataset_final.csv"
+    file_excel = "dataset_final.xlsx"
+    file_csv = "dataset_final.csv"
     
     # Coba baca file Excel dulu, kalau tidak ada baru CSV
     if os.path.exists(file_excel):
